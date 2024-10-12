@@ -1,0 +1,46 @@
+body {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  
+  /* Centered card styling */
+  .password-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 450px;
+    width: 100%;
+    text-align: center;
+  }
+  .password-input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .password-strength-text {
+    font-weight: bold;
+    color: #555; /* Default color */
+  }
+  
+  .progress {
+    height: 20px;
+    border-radius: 5px;
+    background-color: #e9ecef;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    transition: width 0.5s ease;
+  }
+  .show-password-checkbox {
+    margin-top: 10px;
+    text-align: left;
+  }
